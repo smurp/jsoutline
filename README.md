@@ -4,13 +4,11 @@ JavaScript tracing tool to show call nesting, args, returns and timing.
 ## Ambition
 
 Create a tool which traces the call tree of JavaScript in a dev-tools 
-equipped browser (or in node-inspect).  
-[Console.group()](https://developer.mozilla.org/en-US/docs/Web/API/Console.groupCollapsed) 
-is so lovely, wouldn't it be great to be able to see the whole call tree of running
-code, with any console.log output in proper context?  My inspiration for this
-is something similar I wrote years ago for Python: 
-[pyoutline](https://github.com/smurp/pyoutline).
+equipped browser (or in node-inspect) and lets one collapse and expand the nested
+sections using 
+[Console.group()](https://developer.mozilla.org/en-US/docs/Web/API/Console.groupCollapsed). 
 
+![example output](jsoutline.png)
 
 ## Usage
     jsoutline.traceAll(someobj_or_class, recurse, skiplist);
