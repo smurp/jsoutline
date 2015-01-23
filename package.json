@@ -1,0 +1,17 @@
+{
+  "name": "jsoutline",
+  "version": "0.0.1",
+  "description": "JavaScript tracing tool using console.group() to show collapsible nested calls along with args, returns and timing",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:smurp/jsoutline.git"
+  },
+  "main": "./lib/jsoutline.js",
+  "keywords": [
+    "javascript",
+    "tracing",
+    "console"
+  ],
+  "author": "Shawn F. Murphy <smurp@smurp.com>",
+  "license": "MIT"
+}
