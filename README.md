@@ -27,3 +27,9 @@ At the outset of this project I looked around for a JS equivalent of my
 
 I based this implementation on his fine work.
 
+## Discredit?
+
+This has nothing to do with Nick Retallack's similarly named (and quite cool)
+[JSOoutline](https://github.com/nickretallack/JSOutline)
+which I only discovered *after* getting this out.
+
