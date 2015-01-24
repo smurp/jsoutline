@@ -12,6 +12,8 @@ sections using
 
 ## Usage
     jsoutline.traceAll(someobj_or_class, recurse, skiplist);
+    jsoutline.showClassName = true; // default
+    jsoutline.showObjectClass = false; // default, whether to show className when it is 'Object'
     someobj_or_class.do_something_tricky(); // view the output in Chrome/FF/Safari console
     jsoutline.squelch = true; // turn off the outlining
     someojb_or_class.do_something_boring();
