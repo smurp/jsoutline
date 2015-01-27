@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git@github.com:smurp/jsoutline.git"
   },
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  },
   "main": "./lib/jsoutline.js",
   "keywords": [
     "javascript",
