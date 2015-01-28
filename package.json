@@ -1,6 +1,6 @@
 {
   "name": "jsoutline",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript tracing tool using console.group() to show collapsible nested calls along with args, returns and timing",
   "repository": {
     "type": "git",
