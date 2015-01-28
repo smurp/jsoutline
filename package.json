@@ -1,13 +1,16 @@
 {
   "name": "jsoutline",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "JavaScript tracing tool using console.group() to show collapsible nested calls along with args, returns and timing",
   "repository": {
     "type": "git",
     "url": "git@github.com:smurp/jsoutline.git"
   },
   "devDependencies": {
-    "coffee-script": "~1.7.1"
+    "coffee-script": "~1.7.1",
+    "grunt": "~0.4.5",
+    "grunt-contrib-coffee": "~0.12.0",
+    "grunt-release": "0.9.0"
   },
   "main": "./lib/jsoutline.js",
   "keywords": [
