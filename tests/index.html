@@ -36,9 +36,11 @@
         "Primate": ["constructor", "eats", "speak"],
         "Mammal": ["birth", "eats", "look"]
       };
+      console.group("jsoutline");
       jsoutline.traceAll(Canine, true);
       jsoutline.traceAll(Feline, true);
       jsoutline.traceAll(Primate, true);
+      console.groupEnd();
       cat = new Feline();
       cat.speak();
       cat.birth();
